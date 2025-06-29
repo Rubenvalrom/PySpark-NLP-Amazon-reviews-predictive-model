@@ -47,8 +47,13 @@ sido una limitación importante, especialmente a la hora de construir un modelo 
 
 Todas las variables de entorno estaban bien configuradas, python las reconocia y winutils.exe también funcionaba correctamente.
 
-## Instalación de dependencias
+## Instalación
 
 ```bash
+git clone https://github.com/Rubenvalrom/PySpark-NLP-Amazon-reviews-predictive-model.git
+cd PySpark-NLP-Amazon-reviews-predictive-model
+python -m venv env
+source env/bin/activate  # En Windows: .\env\Scripts\activate
 pip install -r requirements.txt
+
 ```
